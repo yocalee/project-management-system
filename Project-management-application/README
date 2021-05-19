@@ -1,0 +1,15 @@
+Open Project-management-application folder in IDE.
+
+In order to connect to mysql server the application needs credentials.
+
+Setting up IntelliJ when importing the project ---->
+    1. Go to Project Structure
+    2. Go to Project ---> set Project SDK to 11
+    3. Set Project language level to 14 (Switch expressions)
+    4. Go to Modules and select the java folder as Source folder (if it is not done automatically)
+    5. Select test folder as Test
+
+
+And then you may hit run and have fun : )
+
+P.S. In order to run tests you must enter your credentials in init() methods in the test folder classes.
